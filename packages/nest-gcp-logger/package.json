@@ -1,0 +1,21 @@
+{
+  "name": "@org/nest-gcp-logger",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint 'src/**/*.ts'",
+    "test": "jest",
+    "format": "prettier -w 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.1",
+    "pino": "^9.3.1",
+    "pino-pretty": "^11.2.2"
+  },
+  "devDependencies": {
+    "@types/pino": "^7.0.5"
+  }
+}
